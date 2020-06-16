@@ -17,6 +17,7 @@ public class UserController {
 		int i = 10;
 		model.addAttribute("user", new User());
 		System.out.println("UPDATED AGAIN FOR TEST");
+		System.out.println("UPDATED AGAIN FOR TEST DOUBLE TESt");
 		return "userForm";
 	}
 
